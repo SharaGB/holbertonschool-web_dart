@@ -1,25 +1,25 @@
 String longestUniqueSubstring(String str) {
-  if (str.isEmpty) {
-    return "";
-  }
-
-  int start = 0;
+  Map<String, int> charsMap = Map<String, int>();
+  int cursor = 0;
+  int startIndex = 0;
   int maxLength = 0;
-  Map<String, int> charIndexMap = {};
 
   for (int i = 0; i < str.length; i++) {
     String currentChar = str[i];
+    bool isExistingCharInMap =
+        charsMap[currentChar] != null && charsMap[currentChar]! >= cursor;
 
-    if (charIndexMap.containsKey(currentChar) && charIndexMap[currentChar] != null && charIndexMap[currentChar]! >= start) {
-      start = charIndexMap[currentChar]! + 1;
+    if (isExistingCharInMap) {
+      cursor = charsMap[currentChar]! + 1;
     }
 
-    charIndexMap[currentChar] = i;
+    charsMap[currentChar] = i;
+    bool isLongerNewString = maxLength < i - cursor + 1;
 
-    if (i - start + 1 > maxLength) {
-      maxLength = i - start + 1;
+    if (isLongerNewString) {
+      maxLength = i - cursor + 1;
+      startIndex = cursor;
     }
   }
-
-  return str.substring(start, start + maxLength);
+  return str.substring(startIndex, startIndex + maxLength);
 }
