@@ -2,18 +2,23 @@
 
 <div class="panel panel-default" id="project-description">
   <div class="panel-body">
-    <h2>Resources</h2>
+    <h1><strong>Resources</strong></h1>
 
-<p><strong>Read or watch</strong>:</p>
+<p>Read or watch:</p>
 
-<ul>
-<li><a href="https://www.tutorialspoint.com/dart_programming/dart_programming_syntax.htm" title="Dart - Syntax" target="_blank">Dart - Syntax</a></li>
-<li><a href="https://www.tutorialspoint.com/dart_programming/dart_programming_decision_making.htm" title="Dart - Conditions" target="_blank">Dart - Conditions</a> </li>
-<li><a href="https://www.tutorialspoint.com/dart_programming/dart_programming_loops.htm" title="Dart - Loops" target="_blank">Dart - Loops</a> </li>
-<li><a href="https://www.tutorialspoint.com/dart_programming/dart_programming_map.htm" title="Dart - MapI" target="_blank">Dart - MapI</a> </li>
-<li><a href="https://dart.dev/codelabs/dart-cheatsheet" title="Dart - Cheatsheet" target="_blank">Dart - Cheatsheet</a> </li>
-<li><a href="https://dart.dev/codelabs/iterables" title="Iterables Collections" target="_blank">Iterables Collections</a> </li>
-</ul>
+<p><a href="https://dart.dev/overview" title="Dart" target="_blank">Dart</a></p>
+
+<p><a href="https://dart.dev/get-dart" title="Get the Dart" target="_blank">Get the Dart</a></p>
+
+<p><a href="https://dart.dev/language" title="A tour of the Dart language" target="_blank">A tour of the Dart language</a></p>
+
+<p><a href="https://dart.dev/guides" title="Dart documentation" target="_blank">Dart documentation</a></p>
+
+<p><a href="https://dart.dev/tutorials/server/cmdline" title="Write command-line apps" target="_blank">Write command-line apps</a></p>
+
+<p><a href="https://dart.dev/tools/dart-compile" title="Dart compile" target="_blank">Dart compile</a></p>
+
+<p><a href="https://dartpad.dev/?" title="Dart Pad" target="_blank">Dart Pad</a></p>
 
   </div>
 </div>
